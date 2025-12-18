@@ -71,7 +71,7 @@ with st.sidebar:
             api_key=openai_api_key
         )
 
-        search_tool = SerperDevTool(api_key=serper_api_key, n_resuls=10)
+        search_tool = SerperDevTool(api_key=serper_api_key, n_results=10)
 
         # First Agent: Historian Agent
         historian_agent = Agent(
